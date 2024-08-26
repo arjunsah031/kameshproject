@@ -1,0 +1,15 @@
+.Con {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    
+    width: 100%;
+   
+    background-color: #000;
+    height: 500px;
+    z-index: 1;
+    
+}   
+
+
+

@@ -1,0 +1,28 @@
+.ConformCon {
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sucessMessageCon {
+    
+    color: green;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sucessMessageCon button {
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rosybrown;
+    color: white;
+}

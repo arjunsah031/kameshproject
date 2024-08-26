@@ -1,0 +1,61 @@
+.ChartBar {
+    width: 100%;
+    height: 100%;
+    background-color:blueviolet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.CartBarInner {
+
+    width: 9px;
+    height: 70%;
+    border-radius: 4px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    
+}
+.ChartBarFill {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+
+}
+.CharBarLable {
+    color: rgb(0, 13, 128);
+    font-size: 14px;
+    font-weight: 700;
+
+
+}
+
+@media( max-width : 600px) {
+
+    .CartBarInner {
+
+        width: 4px;
+        height: 70%;
+          
+    }
+
+    .CharBarLable {
+        color: rgb(0, 13, 128);
+        font-size: 12px;
+        font-weight: 200;
+    
+    
+    }
+
+}

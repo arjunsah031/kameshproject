@@ -1,0 +1,21 @@
+*,::after,::before {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+body {
+    width: 100%;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+button, input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

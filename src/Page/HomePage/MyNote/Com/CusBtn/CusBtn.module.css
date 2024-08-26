@@ -1,0 +1,26 @@
+.Con {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.Btn, .text {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.text {
+    font-style: 13px;
+}

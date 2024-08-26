@@ -1,0 +1,49 @@
+.Con {
+
+    width: 40%;
+   height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+
+    
+}
+.selectCon {
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #525E75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+}
+
+.optionCon {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+}
+.Con option {
+    background-color: #78938A;
+    margin-top: 1px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    
+}

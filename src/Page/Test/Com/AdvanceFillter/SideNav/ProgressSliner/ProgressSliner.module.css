@@ -1,0 +1,14 @@
+.Con {
+    
+   
+    height: 60px;
+    width: 100%;
+    padding: 40px 10px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+} 

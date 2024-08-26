@@ -1,0 +1,66 @@
+.Con {
+    width: 100%;
+    min-height: 700px;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+} 
+
+.BackbtnCon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.BackbtnCon button {
+
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.BackbtnCon button:hover {
+    color: green;
+}
+
+
+.Recentblog {
+
+    margin-top: 20px;
+    width: 100%;
+    min-height: 200px;
+    padding: 50px ;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap ;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+.AllBlogCon {
+    width: 100%;
+    padding: 10px 5px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AllBlogCon div {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media( max-width : 500px) {
+
+    .BackbtnCon button {
+        height: 25px;
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+}

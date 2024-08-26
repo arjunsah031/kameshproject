@@ -1,0 +1,13 @@
+.Con {
+    
+    width : 100%;
+    min-height: 500px;
+    border: 1px solid black;
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+}

@@ -1,0 +1,32 @@
+.Con {
+
+    max-width: 600px;
+    width: 100%;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;   
+   
+}
+
+.Con div {
+    padding-bottom: 10px;
+}
+
+.Number {
+  
+    color: white;
+    text-decoration: none;
+
+}
+
+@media( max-width : 900px) {
+
+    .Con {
+
+        align-items: flex-start;
+
+    }
+}

@@ -1,0 +1,12 @@
+.Con {
+
+    min-width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    
+    overflow: hidden;
+    transition: all 5s  linear;
+
+    /* transform: translateX(-200%); */
+}

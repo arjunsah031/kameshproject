@@ -1,0 +1,29 @@
+.Con {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.ImgCon {
+    
+    padding:  3px 4px;
+    width: 70px;
+    height: 70px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+
+    
+.Icon {
+    /* font-size: 40px; */
+    /* color: white; */
+    background-color: transparent;
+    
+    border-radius: 50%;
+}

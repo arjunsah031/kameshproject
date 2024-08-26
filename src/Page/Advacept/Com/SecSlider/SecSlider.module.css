@@ -1,0 +1,54 @@
+.Con {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    width: 100%;
+    height: 900px;
+   
+    background-color: #000;
+    height: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-top: 100px;
+
+}
+.SliderAnimation {
+
+    transition: all 3s linear;
+    transform: translateX(50%);
+    
+}
+
+.ActionCon  {
+
+    position: absolute;
+    top: 80%;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BackBtn, .NextBtn {
+
+    background-color: rgba(255, 255, 255, 0.37);
+    color: rgba(0, 0, 0, 0.747);
+    padding: 6px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.disablenextbtn {
+
+    display: none;
+}
+
+.disablebackbtn {
+
+    display: none;
+}
+

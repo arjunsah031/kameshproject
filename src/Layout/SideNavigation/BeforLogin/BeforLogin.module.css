@@ -1,0 +1,21 @@
+.Con {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 0 10px;
+    width: 100%;
+    margin-top: 60px;
+    max-width: 250px;
+    
+}
+
+.Btn {
+    
+    height: 80%;
+    padding: 5px;
+    width: 100px;
+    color: whitesmoke;
+
+}

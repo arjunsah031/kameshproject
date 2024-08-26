@@ -1,0 +1,29 @@
+.Con {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.Con img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media( max-width : 850px) {
+    .Con {
+        height: 350px;
+    }
+}
+
+@media( max-width : 450px) {
+    
+    .Con {
+        height: 300px;
+    }
+    
+} 

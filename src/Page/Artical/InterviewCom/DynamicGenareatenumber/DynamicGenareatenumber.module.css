@@ -1,0 +1,70 @@
+.Con {
+    width: 100%;
+    padding: 40px 0;
+
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.Box {
+    width: 500px;
+    padding: 10px;
+
+    background-color: rgba(5, 5, 152, 0.779);
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.passwordCon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:  4px 8px;
+    color: white;
+
+}
+.passwordCon :last-child {
+
+    background-color: rgb(7, 106, 106);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+.CracterLenth {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:  4px 8px;
+    color: white;
+
+}
+.Range {
+
+    width: 100%;
+    background-color: red;
+    padding: 10px 0;
+}
+.BtnCon {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:  10px 8px;
+    color: white;
+    background-color: rgb(7, 106, 106);
+}
+.BtnCon button {
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+

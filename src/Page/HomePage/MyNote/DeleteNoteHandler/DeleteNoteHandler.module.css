@@ -1,0 +1,53 @@
+.ConformCon {
+    width: 100%;
+    height: 100px;
+    color: black;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Text {
+    color: black;
+    font-size: 19px;
+    word-spacing: 3px;
+}
+.ActionBtn  {
+    height: 40px;
+    width: 60%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.ActionBtn button {
+
+    height: 80%;
+    width: 70px;
+    background-color: rgba(136, 127, 127, 0.911);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deletemessageCon {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: green;
+}
+.deletemessageCon button {
+
+    background-color: #B3541E;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}

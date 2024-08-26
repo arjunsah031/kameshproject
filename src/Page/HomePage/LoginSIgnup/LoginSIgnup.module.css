@@ -1,0 +1,53 @@
+.Con {
+  
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.imgCon {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+}
+.imgCon img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.loginsignCon {
+   
+    position: absolute;
+    transform: translate(-50%  50%);
+    z-index: 8;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: white;
+
+}
+.loginsignCon button {
+
+    color: orangered;
+    font-size: 21px;
+    cursor: pointer;  
+    padding-left: 7px;
+} 
+@media( max-width : 500px) {
+    .Con {
+        height: 470px;
+    }
+}
+

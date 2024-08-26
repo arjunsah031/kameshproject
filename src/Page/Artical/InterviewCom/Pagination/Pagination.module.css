@@ -1,0 +1,133 @@
+.Con {
+
+    width:  100%;
+    min-height:  200px;
+}
+.ProductControler {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image {
+
+    width: 200px;
+    height: 200px; 
+} 
+.productCon {
+
+    width: 300px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid rebeccapurple;     
+}
+
+.ImageRap {
+
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.PageControler{ 
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PageControler span {
+    padding: 0 10px;
+    font-size: 18px;
+}
+.PageControler span:hover {
+    background-color: green;
+}
+.BackBtndecable {
+    
+    color: rgba(255, 0, 0, 0.281);
+    pointer-events: none;
+}
+
+.activeStyle {
+    background-color: gold;
+}
+
+.Loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: gold;
+    margin-top: 60px;
+
+}
+
+@media( max-width : 600px) {
+
+    .productCon {
+
+        width: 200px;
+        height: 200px;
+             
+    }
+    .Image {
+        width: 160px;
+        height: 120px;
+    }
+    .PageControler span {
+        padding: 0 4px;
+        font-size: 15px;
+    }
+
+}
+
+@media( max-width : 410px) {
+
+    .productCon {
+
+        width: 140px;
+        height: 140px;
+             
+    }
+    .Image {
+        width: 90px;
+        height: 80px;
+    }
+
+}
+@media( max-width : 350px) {
+
+    .productCon {
+
+        width: 130px;
+        height: 160px;
+             
+    }
+    .Image {
+        width: 100px;
+        height: 100px;
+    }
+
+}

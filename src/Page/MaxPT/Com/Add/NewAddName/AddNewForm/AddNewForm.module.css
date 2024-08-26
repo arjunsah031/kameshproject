@@ -1,0 +1,55 @@
+.Con {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    background-color:#61A4BC;
+    padding-top: 20px;
+    border-radius: 50px;
+  
+   
+
+}
+.Form {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+.inputCon {
+
+    width: 90%;
+    height: 40px;
+  
+    margin-bottom: 3px;
+
+}
+.inputCon input {
+    
+    background-color: #603501b6;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+   
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+   
+}
+.Btn {
+
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color:#008E89;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
