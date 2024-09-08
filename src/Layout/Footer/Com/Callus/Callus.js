@@ -8,7 +8,7 @@ const Callus = () => {
         <div>Call us</div>
         <a  className={ CssStyle.Number} href='https://youtu.be/LQKahQz0lbc'>
 
-            <span>7619517427</span>
+            <span>9742570702</span>
 
         </a >
 

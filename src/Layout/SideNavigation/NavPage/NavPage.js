@@ -38,6 +38,12 @@ const NavPage = () => {
         dispatch(closeSideNavationActio())
 
     }
+    const projectHandler = () => {
+
+        navigate("/test")
+        dispatch(closeSideNavationActio())
+
+    }
 
 
     return  <div className={ CssStyle.Con } >
@@ -60,6 +66,10 @@ const NavPage = () => {
                 <div className={ CssStyle.MynoteCon}>  
 
                    <button onClick={ planHandler } className={ CssStyle.Btn } > PLAN </button>
+                </div>
+                <div className={ CssStyle.MynoteCon}>  
+
+                   <button onClick={ projectHandler } className={ CssStyle.Btn } > PROJECT </button>
                 </div>
 
             </div>

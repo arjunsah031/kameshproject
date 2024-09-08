@@ -52,12 +52,21 @@ const ContactForm = () => {
 
                 setMessages('')
                 
-            }, 5000);
+            }, 2000);
 
         })
         .catch( () => {
 
-            setMessages('some thing is wrong')
+            setMessages('some this is wrong')
+
+            setTimeout(() => {
+
+                setMessages('')
+                
+            }, 2000);
+
+            setSpining(false)
+           
 
         })
 

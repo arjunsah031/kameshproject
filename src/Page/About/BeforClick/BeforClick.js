@@ -25,7 +25,7 @@ const BeforClick = props => {
 
                 <h1> ABOUT ME</h1>
                 <div>
-                "Hello, I'm Arjun, a passionate computer science engineering graduate with a strong foundation in the field. At 27 years old, I bring a wealth of knowledge and enthusiasm to the world of technology. With a Bachelor's degree in Computer Science, I have honed my skills and expertise in the ever-evolving realm of front-end web development, particularly in React. With over two years of professional experience in this domain, I've had the opportunity to contribute to various projects, enhancing user experiences and crafting elegant, user-friendly web interfaces. I'm dedicated to staying at the forefront of technological advancements, and I'm excited to continue my journey in the world of web development."
+                "Hello, I'm kamesh, a passionate computer science engineering graduate with a strong foundation in the field. At 27 years old, I bring a wealth of knowledge and enthusiasm to the world of technology. With a Bachelor's degree in Computer Science, I have honed my skills and expertise in the ever-evolving realm of front-end web development, particularly in React. With over two years of professional experience in this domain, I've had the opportunity to contribute to various projects, enhancing user experiences and crafting elegant, user-friendly web interfaces. I'm dedicated to staying at the forefront of technological advancements, and I'm excited to continue my journey in the world of web development."
                 </div>
 
                 <div>

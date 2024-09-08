@@ -11,7 +11,7 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.Adress}>
 
-                    <div>Sector 49 Noida Utarpradesh</div>
+                    <div>Janakpur dam dhanusa nepal</div>
 
                     <div> 5th floor Gautam budh nagar  </div>
 
@@ -19,14 +19,14 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.PhoneNunmer } >
 
-                    <div>PHN: 7619517427 </div>
-                    <div>PHN: 7619517427 </div>
+                    <div>PHN: 9742570702 </div>
+                    <div>PHN: 9742570702 </div>
 
                 </div>
 
                 <div className={ CssStyle.SosalMedia}>
 
-                    <div> Gmail : saharjun031@gmail.com</div>
+                    <div> Gmail : Gangeshmathema27@gmail.com</div>
                     <div className={ CssStyle.media} > <SosalMedia
 
                         color = 'white'
@@ -38,7 +38,7 @@ const Contacttittle = () => {
 
                 <div className={ CssStyle.CopyRight } >
 
-                    <div>© 2023 by Personal Life Coach. </div>
+                    <div>© 2024 by Personal Life Coach. </div>
                     <div >Proudly created with Wix.com  </div>
 
                 </div>

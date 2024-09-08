@@ -1,21 +1,38 @@
+/* Main container */
 .Con {
-
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 45px;
-    padding: 0 10px;
-    width: 100%;
-    margin-top: 60px;
-    max-width: 250px;
-    
-}
-
-.Btn {
-    
-    height: 80%;
-    padding: 5px;
-    width: 100px;
-    color: whitesmoke;
-
-}
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Profile Image styling */
+  .Img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for the profile image */
+  .Img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* For responsive design */
+  @media (max-width: 768px) {
+    .Con {
+      padding: 10px;
+    }
+  
+    .Img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  

@@ -1,61 +1,74 @@
+/* Main container */
 .Con {
     width: 100%;
-    min-height: 200px;
-   
-    padding-top: 5px;
-
-}
-.BtnCon {
-
-    max-width: 600px;
-    height: 45px;
+    max-width: 1200px;
     margin: 0 auto;
-    background-color: white;
-    
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 0 10px;
-    margin-top: 20px;
-    
-}
-.BtnCon button {
-   
-    height: 100%;
-    color: black;
+    justify-content: center;
 
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.BtnCon button:hover {
-    color: rgb(11, 131, 179);
-}
-
-.FoodIteamCon {
-
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-
-    padding: 30px 50px;
-
+    border-top: 1px solid white;
+    margin-top: 30px;
+  }
+  
+  /* Button container */
+  .BtnCon {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-
-@media( max-width : 500px) {
-
-    .FoodIteamCon {
-
-    
-        padding: 0px;
-    
-        
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+  
+  /* Button styling */
+  .BtnCon button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .BtnCon button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  /* Active state for buttons */
+  .BtnCon button:active {
+    background-color: #388e3c;
+    transform: translateY(0);
+  }
+  
+  /* Food item container */
+  .FoodIteamCon {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .BtnCon button {
+      padding: 8px 15px;
+      font-size: 14px;
     }
-    
-} 
+  
+    .FoodIteamCon {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .FoodIteamCon {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  

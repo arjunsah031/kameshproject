@@ -1,165 +1,129 @@
-.Con {
-
-    height: 400px;
-    width: 100%;
+/* Main container */
+.MainCon {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-
-}
-.AboutPhotoCon {
-    width: 100%;
-    height: 550px;
-    position: relative;
-    z-index: 1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-.AboutPhotoCon img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-}
-.Text {
-    margin-top: -300px;
-    position: absolute;
-    z-index: 3;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    
-}
-.Text div {
-    font-size: 19px;
-    font-weight: 700;
-    word-spacing: 8px;
-    letter-spacing: 3px;
-    text-align: center;
-    
-}
-.Text h1 {
-    font-size: 130px;
-    letter-spacing: 9px;
-    font-weight: 1400;
-    color: rgba(255, 217, 0, 0.792);
-   
-}
-
-.desCon {
-
-    width: 45%;
-    height: 100%;
-    display: flex;
-    padding-left: 80px;
-    padding-right: 10px;
-    padding-top: 30px;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-    font-size: 12px;
-    font-weight: 500;
-    padding-bottom: 50px;
-
-    background-color: black;
-    color: white;
-
-}
-.desCon h1 {
-    font-size: 28px;
-    font-weight: 900;
-}
-
-.btnCon button {
-    background-color: black;
-    color: white;
-    padding: 7px;
-    cursor: pointer;
-}
-
-
-.photoCon {
-
-    width: 40%;
-    height: 100%;
-} 
-.Con img {
-
-    width: 100%;
-    height: 100%;
-}
-
-@media( max-width : 700px) {
-
-    .desCon {
-        padding-left: 30px;
-    }
-    .AboutPhotoCon {
-        height: 350px;
-    }
-    .Text {
-        margin-top: 0;
-    }
-    .Text h1 {
-        font-size: 80px;
-    }
-    .Text div {
-        font-size: 18px;
-        word-spacing: 4px;
-    }
-
-}
-
-@media( max-width : 550px) {
-
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
   
-    .Text h1 {
-        font-size: 50px;
-        letter-spacing: 4px;
-    }
-    .Text div {
-        font-size: 17px;
-        word-spacing: 3px;
-        letter-spacing: 2px;
-        color: gold;
-    }
-
+  /* About section container */
+  .AboutPhotoCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* About photo styling */
+  .AboutPhotoCon .Img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text styling */
+  .Text {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .Text div {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .Text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  /* Main content container */
+  .Con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Description container */
+  .desCon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Description heading */
+  .desCon h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Description text */
+  .desCon div {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Button container */
+  .btnCon {
+    margin-top: 20px;
+  }
+  
+  .btnCon button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .btnCon button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  /* Photo container */
+  .photoCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Profile photo styling */
+  .photoCon .Img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
     .Con {
-        height: 900px;
-        flex-direction: column;
+      flex-direction: column;
     }
-    .desCon {
-        padding: 30px;
-        width: 100%;
-    } 
-    .photoCon {
-        width: 100%;
+  
+    .AboutPhotoCon .Img {
+      max-width: 100%;
     }
-
-}
-
-@media( max-width : 400px) {
-
-    .Text div {
-        font-size: 15px;
-        word-spacing: 1px;
-        letter-spacing: 2px;
+  
+    .photoCon .Img {
+      width: 200px;
+      height: 200px;
     }
-
-    .Con {
-        height: 700px;
-    }
-
-    .desCon {
-        font-size: 11px;
-        font-weight: 700;
-    }
-
-}
-
+  }
+  
